@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 03</title>
+    <style>
+        body{
+            background-color: rgb(112, 112, 230);
+            color: white;
+            font: normal 15pt arial;
+            }
+        h1 {
+            color: rgb(62, 97, 62);
+        }
+    </style>
+</head>
+<body>
+    <h1>Cauculadora</h1>
+    <p>Qual seria a questão?</p>
+    <script>
+            var n1 = Number(window.prompt('Digite um número')) // vai perguntar um número (um string)
+            var n2 = Number(window.prompt(' Digite outro número')) // Vai perguntar outro (outro string)
+            //tenho que converter para number para a soma funcionar!
+            //Number.parseInt para converter para números inteiros
+            //Number.parseFloat para converter para números reais.
+            //Novidade nova!!! Posso só Usar o "Number(variável)"
+            var s = n1 + n2 //vai somar os 2 números.
+            window.alert(`A soma entre ${n1}  e ${n2} é igual á ${s}`) // Este + esta contatenando
+            // + pode ser adição (number + number)
+            // + também pode ser contenação (string + string)
+            // tem que explicar direito pro JS kjkj
+            /*eu posso usar o ${(variável)} para mencionar qualquer variável, IMPORTANTE
+            eu tenho que começar a parada com cráse(`)*/
+            // s.length - quantos caracteres tem a string
+            // s.toUpperCase() - bota tudo em letras maiúsculas
+            // s.toLowerCase() - bota tudo em letras minúsculas
+    </script>
+</body>
+</html>
