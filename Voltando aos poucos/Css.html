@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando CSS</title>
+    <style>
+
+                                /* https://www.w3schools.com/ */
+
+        h1{color: red;
+            text-align: center;} /* center, left, right... Eu escolho a localização do texo*/
+        
+        #paral{ text-align:center;
+        color: green;} /*Esta forma (#nome) me da para deixar uma "classe" pronta */ /*Eu posso escolher qualquer nome não reservado para ser o nome*/
+
+        #parafal{color: black;
+            text-align:right;}
+        
+        .center{ text-align: center; 
+            color: yellow;}/* Criando a tag "class" Cuidado a usa-lá 
+            Posso usar também um seletor dentro dela por exemplo: p.center(seria para colocar-las nas tags "p") */
+
+        #center{text-align: center;}
+        
+    </style>
+
+</head>
+
+<body>
+    <h1 class="center"> <!-- Usando a tag "class" -->
+        Bem vindo ao meu mundo!
+    </h1>
+
+    <p id="paral"> <!-- Usando a classe paral -->
+        Seja bem vindo ao meu mundo!<br>
+        O underground segue vivo, agrecivo e sujo.
+    </p>
+    
+    <img src="C:\Users\cglab118\Pictures\Screenshots\Captura de tela 2025-03-27 092325.png"> <!-- <img src=""> -->
+
+    <p id="center"> <!-- Usando a classe parafal -->
+        Gostem ou não de mim<br>
+        quero mais uma dose<br>
+        Amor eu sou assim<BR>
+        Libertários não morrem.
+    </p>
+
+    <p id="paral">
+        Viva a cidade sem sequelha<BR>
+        A vida é bela para quem tem coragem<br>
+        EU SOU O CAPETA!!!
+    </p>
+    
+</body>
+</html>
