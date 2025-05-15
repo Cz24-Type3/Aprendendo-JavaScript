@@ -3,68 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>10/04/2025</title>
-
+    <title>Introducing Javascript</title>
     <style>
-
-        /* <div></div> Ela não tem valor funcional, serve para eu colocar alterações em outros fatores*/
-
-
-        body{
-            background-color: rgb(84, 167, 235)
+        body{background-color: black;
         }
-
-        h1 {color: red;
-        text-align: center;
-        font-size: 25px;}
-
-        p{color: red;
-        text-align: center;}
-
-        /* id */
-        #corpo1 {
-            color:white;
-            background-color: black;
-            font-size: 15px;
+        
+        .Aluno{ /* Casse para o aluno*/
+            font-size: 20px;
             text-align: center;
+            background-color: white;
+            color: red;
         }
 
-        /* class */
-        .hyper{
-            color:rgb(0, 99, 99);
-            font-size: 25px;
+        .Pessoa{ /* Classe genereralizadora para as pessoas.*/
+            color: greenyellow;
+            font-size: 22px;
             text-align: right;
         }
 
-        /* Seleção global */
-        *{color: deeppink;
-        background-color: whitesmoke;
-        text-align: start;}
-
-
-
     </style>
+
+    
 </head>
 <body>
-    <h1>Olá, bem vindo ao meu mundo!</h1>
-    <BR>
-    <p>
-        Seja bem vindo ao meu mundo, o underground segue frio, agressivo e sujo
-    </p>
-    <BR>
-    <p style="color: rgb(255, 81, 0)">
-        Os inimigos são réus
-    </p>
-    <BR>
-    <p>
-        olá tudo bem kkkkkk
-    </p>
 
-    <p id="corpo1">
-        Hoej aqui an festa que corre é o leão
-    </p>
 
-    <h3 class="hyper">A vida na selva de um jovem menino</h3>
+    <!--associação, agregação e associação por composisão--> 
+
+
+    <p class="Pessoa">
+        Este é um exemplo da aplicação de classe
+    </p>
     
+    <h1 class="Aluno" > Olá, isso é um teste de HTML</h1>
+
+    <script class="Pessoa" lang="javascript">
+        let Aluno = prompt("Digite o seu nome");
+        document.write(Aluno);
+    </script>
+
 </body>
 </html>
